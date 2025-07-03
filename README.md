@@ -1,4 +1,4 @@
-# Weather Fetcher 🌦️
+# Weather Fetcher 
 
 A simple Python script that fetches real-time weather data for any city using the OpenWeatherMap API.
 
@@ -17,41 +17,33 @@ A simple Python script that fetches real-time weather data for any city using th
    cd weather-fetcher
 Create a virtual environment (optional but recommended)
 
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Linux/Mac
-venv\Scripts\activate     # On Windows
+```bash
+   python -m venv venv
+   source venv/bin/activate  # On Linux/Mac
+   venv\Scripts\activate     # On Windows
+```
 Install dependencies
-
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 Setup environment variables
-
 Create a .env file in the root folder:
-
 env
-Copy
-Edit
+```bash
 WEATHER_API_KEY=your_openweathermap_api_key_here
+```
 Run the script
-
-bash
-Copy
-Edit
+```bash
 python weather.py
+```
 Example
-yaml
-Copy
-Edit
-Enter a city: London
-Weather in London:
-Description: light rain
-Temperature: 16°C
-Humidity: 82%
+```yaml
+Enter a city: Delhi
+Weather in Delhi:
+Description: overcast clouds
+Temperature: 31.35°C
+Humidity: 76%
+```
 The weather data will be saved to weather.csv.
 
 
